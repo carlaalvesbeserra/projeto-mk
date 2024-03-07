@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Mortal Kombat - Semana do Zero Ao Programador Contratado</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/imagens/logo-mk.png" alt="Logo Mortal Kombat">
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h2 class="titulo">Selecione um personagem</h2>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="scorpion" data-name="Scorpion"
+          data-description=" Scorpion é o espectro de um ninja que busca vingar a própria morte, a destruição de seu clã e a morte de sua família, fazendo dele um anti-herói, seu papel principal durante toda a série até Mortal Kombat X.">
+          <img src="./src/imagens/card-scorpion-small.png" alt="Personagem scorpion" style="width: 150px;" />
+        </li>
+        <li class="personagem" id="subzero" data-name="Sub-Zero"
+          data-description="O personagem é descrito como formidável e que possui a inata habilidade de controlar o gelo de diversas formas, bem como sua rivalidade com Scorpion. ">
+          <img src="./src/imagens/card-subzero-small.png" style="width: 150px;" alt="Personagem Sub-Zero" />
+        </li>
+
+        <li class="personagem" id="raiden" data-name="Raiden"
+          data-description="Raiden é o Deus do Trovão e protetor do reino da Terra, com frequência liderando as forças do bem contra o mal e servindo de mentor para os personagens terráqueos como Liu Kang.">
+          <img src="./src/imagens/card-raiden-small.png" alt="Personagem Raiden" style="width: 150px;" />
+        </li>
+
+        <li class="personagem" id="kitana" data-name="Kitana"
+          data-description="Kitana é princesa de Outworld, sendo filha adotiva do imperador Shao Kahn, e mais tarde descobre ser filha da família real de Edenia, a rainha Sindel e o rei Jerrod. Kitana tem como arma leques com lâminas que usa contra seus inimigos.">
+          <img src="./src/imagens/card-kitana-small.png" alt="Personagem Kitana" style="width: 150px;" />
+        </li>
+
+        <li class="personagem" id="shaokhan" data-name="Shao Khan"
+          data-description="Shao Kahn, o Konquistador, é representado como a personificação do mal. Em muitos aspectos, ele se assemelha a um grande guerreiro asiático.">
+          <img src="./src/imagens/card-shaokhan-small.png" alt="Personagem Shao Khan" style="width: 150px;" />
+        </li>
+
+        <li class="personagem" id="mileena" data-name="Mileena"
+          data-description="Mileena é a gêmea má da princesa Kitana. Ela foi criada pelo feiticeiro Shang Tsung a serviço do Imperador da Exoterra e pai adotivo de Kitana, Shao Kahn, para ser um clone com a essência da raça guerreira Tarkatan, porém o processo acabou por também dar a Mileena a boca com dentes pontiagudos e afiados dos Tarkatans.">
+          <img src="./src/imagens/card-mileena-small.png" alt="Personagem Mileena" style="width: 150px;" />
+        </li>
+
+        <li class="personagem" id="liukang" data-name="Liu Kang"
+          data-description="Liu Kang é um monge Shaolin que entra o torneio Mortal Kombat para salvar a Terra de uma possível invasão.">
+          <img src="./src/imagens/card-liukang-small.png" alt="Personagem Liu Kang" style="width: 150px;" />
+        </li>
+
+        <li class="personagem" id="kano" data-name="Kano"
+        data-description="Kano é um mercenário ciborgue que faz parte de um cartel internacional conhecido por Dragão Negro, e tem uma rivalidade com os militares Sonya Blade e Jax Briggs.">
+        <img src="./src/imagens/card-kano-small.png" alt="Personagem Kano" style="width: 150px;" />
+      </li>
+
+      <li class="personagem" id="shangtsung" data-name="Shang Tsung"
+      data-description="Um feiticeiro originário da China mas eventualmente aliado à Exoterra, ele é o principal antagonista e chefe final do primeiro jogo da série, lançado em 1992. Seus poderes incluem se transformar em outros combatentes e absorver as almas dos adversários.">
+      <img src="./src/imagens/card-shangtsung-small.png" alt="Personagem Shang Tsung" style="width: 150px;" />
+    </li>
+
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/imagens/criador.png" alt="Personagem Selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Dan Forden</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+          Dan Forden , programador de som da franquia. Isso mesmo, ele é o responsável pela trilha sonora do jogo.
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
